@@ -102,7 +102,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="external\jasmine-2.0.0\boot.js" />
+    <Content Include="external\jasmine-2.0.0\console.js" />
+    <Content Include="external\jasmine-2.0.0\jasmine-html.js" />
+    <Content Include="external\jasmine-2.0.0\jasmine.css" />
+    <Content Include="external\jasmine-2.0.0\jasmine.js" />
+    <Content Include="external\jasmine-2.0.0\jasmine_favicon.png" />
+    <Content Include="js\endsWith.js" />
+    <Content Include="js\startsWith.js" />
+    <Content Include="js\stripHtml.js" />
     <Content Include="test.html" />
+    <Content Include="tst\endsWithTests.js" />
+    <Content Include="tst\startsWithTests.js" />
+    <Content Include="tst\stripHtmlTests.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

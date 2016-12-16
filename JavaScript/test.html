@@ -1,10 +1,27 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-	<meta charset="utf-8" />
-</head>
-<body>
+    <meta charset="utf-8" />
+    <title>Javascript Requirements Tests</title>
 
-</body>
+    <!--
+        Jasmine library
+        Ref: https://jasmine.github.io/
+    -->
+    <link rel="shortcut icon" type="image/png" href="external/jasmine-2.0.0/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="external/jasmine-2.0.0/jasmine.css">
+    <script type="text/javascript" src="external/jasmine-2.0.0/jasmine.js"></script>
+    <script type="text/javascript" src="external/jasmine-2.0.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="external/jasmine-2.0.0/boot.js"></script>
+
+    <!--src files-->
+    <script src="js/startsWith.js" type="text/javascript"></script>
+    <script src="js/endsWith.js" type="text/javascript"></script>
+    <script src="js/stripHtml.js" type="text/javascript"></script>
+
+    <!--test files-->
+    <script src="tst/startsWithTests.js" type="text/javascript"></script>
+    <script src="tst/endsWithTests.js" type="text/javascript"></script>
+    <script src="tst/stripHtmlTests.js" type="text/javascript"></script>
+</head>
 </html>
