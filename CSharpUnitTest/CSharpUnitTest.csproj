@@ -55,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Req1UnitTest.cs" />
     <Compile Include="Req2UnitTest.cs" />
+    <Compile Include="Req3UnitTest.cs" />
+    <Compile Include="Req4UnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CSharp\CSharp.csproj">
