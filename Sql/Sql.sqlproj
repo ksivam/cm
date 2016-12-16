@@ -58,4 +58,18 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Customer.sql" />
+    <None Include="Orders.sql" />
+    <None Include="Req10.1.sql">
+      <AnsiNulls>Off</AnsiNulls>
+      <QuotedIdentifier>Off</QuotedIdentifier>
+    </None>
+    <None Include="Req10.2.sql" />
+    <None Include="Req10.3.sql" />
+    <None Include="Req9.1.sql" />
+    <None Include="Req9.2.sql" />
+    <None Include="Req9.3.sql" />
+    <None Include="Salesperson.sql" />
+  </ItemGroup>
 </Project>
