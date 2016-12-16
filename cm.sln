@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpUnitTest", "CSharpUni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScript", "JavaScript\JavaScript.csproj", "{ECEFD760-4592-4CC3-8339-50C1C437EEAB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D8B8FD3-B778-40E5-AF38-44982BDB2F90}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sql", "Sql\Sql.sqlproj", "{EC557EB8-5898-407C-B2BA-EEA4FB26802E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,12 @@ Global
 		{ECEFD760-4592-4CC3-8339-50C1C437EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECEFD760-4592-4CC3-8339-50C1C437EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECEFD760-4592-4CC3-8339-50C1C437EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC557EB8-5898-407C-B2BA-EEA4FB26802E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC557EB8-5898-407C-B2BA-EEA4FB26802E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC557EB8-5898-407C-B2BA-EEA4FB26802E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC557EB8-5898-407C-B2BA-EEA4FB26802E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC557EB8-5898-407C-B2BA-EEA4FB26802E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC557EB8-5898-407C-B2BA-EEA4FB26802E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
